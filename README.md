@@ -15,7 +15,7 @@
 
 	La final se calculează pozițiile în care se poate ajunge de pe pozițiile de pe ultima linie a labirintului.
 
-# clustering
+# clustering - algoritmul K-means
 	Partea 2 - Clustering 
 	Functia clustering_pc. Se face etapa de inițializare, punctele din matricea points sunt distribuite în NC clustere. Clustere sunt repezentate de o matrice, punctele se distribuie astfel: linia pe care e trebuie plasat un punct, reprezintă clusterul din care face parte, iar pe coloanele acestei linii, se salvează pozițiile punctelor în matricea points. Pentru aceste clustere se calculează NC centroizii, care reprezintă media aritmetica a punctelor care se găsesc în clustere. Cenroizii sunt reprezentați de o matrice, prima linie din matrice e centroidul pentru primul cluster, și așa mai departe.
 
